@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 10rem;
+}
+
+.navbar h1 {
+  color: #57f23f;
+  font-family: "Titan One", sans-serif;
+  font-size: 2.5rem;
+  background: linear-gradient(to right, #b923e1, #ccfd38,#ffbd7f, #ad0df1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 4rem;
+  font-size: 1.3rem;
+}
+
+.nav-contact-me {
+  padding: 1.1rem 2rem;
+  border-radius: 7rem;
+  color: #fff;
+  background-image: linear-gradient(267deg, #DA7C25 0.26%, #b923e1 101.3%);
+  font-size: 1.5rem;
+  cursor: pointer; 
+  transform: 0.8s;
+  font-size: 1.1rem;
+}
+
+.nav-contact-me:hover {
+  transform: scale(1.1);
+}
